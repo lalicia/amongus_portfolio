@@ -1,20 +1,16 @@
 import React from "react";
-import {useState, useEffect} from "react";
+// import {useState, useEffect} from "react";
+import ParticlesBackground from "./ParticlesBackground.js";
 
-import "../../App.css";
+// import "../../App.css";
 
 function Landing() {
-    const [isEmpty, setEmpty] = useState(false);
-
- 
-    setTimeout(() => {setEmpty(prev => !prev)}, 5000);
     
 
     return (
         <>
-             <div className={isEmpty ? "emptywriteout" : "writeout"}>
-            </div>
-            {/* <button className={"writeout_btn" onClick={resetInputField}>Release</button> */}
+            <ParticlesBackground />
+            <h1>Alicia Lowe<br></br>totally not sus - <mark className="red">promise</mark></h1>
         </>
     )
 
