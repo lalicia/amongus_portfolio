@@ -25,6 +25,7 @@ h1 {
 
 .start-button {
   background-color: black;
+  cursor: crosshair;
 }
 
 .start-button-img {
