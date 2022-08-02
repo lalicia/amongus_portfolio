@@ -34,11 +34,12 @@ h1 {
   /* margin-right: -50px; */
 }
 
-/*****************************************About Page**********/
+/**************************************About and Contact**********/
 
 
 .about-container {
-  /*position: relative;*/
+  /*if you turn on the below position relative it stops links working!*/
+  /* position: relative; */
 
   height: 100vh;
   background-image: url("./assets/cafeteria.jpg");
@@ -78,6 +79,7 @@ h1 {
   border: 6px solid rgb(27, 27, 31);
   border-radius: 10px;
   margin-top: 2rem;
+  box-shadow: 2px 2px 2px lightskyblue;
 }
 
 .tagline {
@@ -117,7 +119,7 @@ h1 {
 .socials {
   display: flex;
   flex-direction: row;
-  margin-top: 6rem;
+  margin-top: 3rem;
   width: 8rem;
   justify-content: space-around;
   padding: .5rem;
@@ -133,4 +135,56 @@ h1 {
 .github {
   width: 40px;
   height: auto;
+}
+
+.vent {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 250px;
+  height: auto;
+}
+
+
+/*********************************************Homepage********/
+
+.homepage-container {
+   height: 100vh;
+   background-image: url("./assets/crewmate.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+   margin-top: 0;
+   z-index: -1;
+}
+
+.homepage-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  letter-spacing: .1rem;
+}
+
+.homepage-link {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+
+/******************************************Projects and Tech********/
+
+.projects-container {
+  height: 100vh;
+  background-image: url("./assets/wires.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  margin-top: 0;
+  z-index: -1;
 }

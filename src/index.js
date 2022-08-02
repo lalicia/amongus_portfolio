@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import About from "./pages/About/About.js";
+import Homepage from "./pages/Homepage/Homepage.js";
+import Projects from "./pages/Projects/Projects.js";
 
 import {
   BrowserRouter,
@@ -18,7 +20,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-and-contact" element={<About />} />
+        <Route path="/home" element={<Homepage />} />
+        <Route path="/projects-and-tech" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
