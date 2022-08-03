@@ -18,6 +18,7 @@ function Homepage() {
                 <Link to="/about-and-contact" style={{textDecoration: "none"}}><h1 className="homepage-link">About and Contact</h1></Link>
                 <Link to="/projects-and-tech" style={{textDecoration: "none"}}><h1 className="homepage-link">Projects and Tech</h1></Link>
             </div>
+            <Link to="/" style={{textDecoration: "none"}}><h3 className="landing-link"><i>I wanna see the cool Landing page again with the stars, please</i></h3></Link>
         </div>
     )
 

@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import mePic from "../../assets/20211117_120036.jpg";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
-import vent from "../../assets/vent.png";
+import vent from "../../assets/eddvent.png";
 
 import "../../App.css";
 
