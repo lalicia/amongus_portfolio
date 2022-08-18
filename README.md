@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Among Us Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was actually a happy accident as I didn't set out to create this, but was planning to use tsparticles for a different design I had in mind.  However, the minute I found the Among Us version of tsparticles, I was just inspired to play with it and have some fun, and decided to spin up a portfoilo design!
 
-## Available Scripts
+## Some Thoughts
 
-In the project directory, you can run:
+One of the reasons I wouldn't carry this through as my main portfolio (aside from maybe the argument it's not very professional) is that the backgrounds would be very hard to work with for mobile design because they're landscape, and the design relies heavily on the background images to carry through the theme.
 
-### `npm start`
+Finding similar fonts to those used in the game was quite fun using Google fonts, and I think this worked well to re-create the Among Us feel.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Applying tsparticles wasn't as simple as the docs suggested, nor the tutorials I'd seen, and took some bodging of various things - so I'd just be aware of this for anyone considering implementing it.  Don't let that put you off, but likewise don't beat yourself up if you've done everything as told and it still won't work!  Once you get it working there are a lot of places you can modify things to get it how you want; for example, on this profile I slowed down the animation of the stars, as well as the movement and colour of the character.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sadly there is no brown (which I usually play) :disappointed:
 
-### `npm test`
+I found that making buttons with transparent backgrounds is very difficult without paid software; the one free solution I found that worked added a large background border around the image that couldn't be removed, and that obviously made it unsuitable for a button because of the size of the clickable area.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## But...
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For all the challenges when it came to making it look just right, I still love this portfolio design :blush:
