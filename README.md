@@ -17,3 +17,6 @@ I found that making buttons with transparent backgrounds is very difficult witho
 ## But...
 
 For all the challenges when it came to making it look just right, I still love this portfolio design :blush:
+
+
+### NB. I've removed/disabled links incase people fork this repo :smile:
