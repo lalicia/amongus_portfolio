@@ -49,28 +49,17 @@ function Projects() {
                     {/* <h2 className="project-title">iAm != "ok"</h2> */}
                     <img className="notok" src={notok1} alt="project-pic"/>
                     <p className="project-p">iAm != "ok" is a community mental health app, focussed on delivering tools and information with a light, friendly, and approachable feel.<br></br>To see the project live, please visit: 
-                    {/* <a className="project-link" href="http://iam-notok.netlify.app" target="_blank" rel="noreferrer"><i> iAm != "ok"</i></a> */}
+                    {/* <a className="project-link" href="you'd need to link your project here" target="_blank" rel="noreferrer">*/}
+                        <i> Link disabled as profile not in use</i>
+                    {/*</a> */}
                     <br></br>For more info, please visit: 
-                    {/* <a className="project-link" href="https://github.com/lalicia/iAm_not_ok/blob/main/README.md" target="_blank" rel="noreferrer"><i> GitHub Repo</i></a> */}
+                    {/* <a className="project-link" href="https://github.com/lalicia/iAm_not_ok/blob/main/README.md" target="_blank" rel="noreferrer">*/}
+                    <i> Would be link to Github Repo, also disabled</i>
+                    {/*</a> */}
                     </p>
 
                 </div>
 
-                <div className="holiday-helper">
-
-                </div>
-
-                <div className="hey-u">
-
-                </div>
-
-                <div className="portfolio">
-
-                </div>
-
-                <div className="bootcamp-booster">
-
-                </div>
             </div>
             <Link to="/home"><img className="vent" src={vent} alt="back to home" /></Link>
             </div>
